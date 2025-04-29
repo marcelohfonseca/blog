@@ -1,15 +1,38 @@
 baseURL = 'https://marcelofonseca.me/'
-languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-blog-awesome'
+languageCode = 'pt-BR'
+defaultContentLanguage = 'pt-BR'
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/hugo-sid"
+[languages]
+  [languages.en]
+    contentDir = 'content/posts/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'My blog'
+    weight = 0
 
-[[params.socialIcons]]
-name = "Rss"
-url = "/index.xml"
+  [languages.pt-BR]
+    contentDir = 'content/posts/pt'
+    disabled = false
+    languageCode = 'pt-BR'
+    languageName = 'Português'
+    title = 'Meu blog'
+    weight = 1
+
+    [languages.pt-BR.params]
+      subtitle = 'Subtítulo'
 
 [params]
   goToTop = true
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/marcelohfonseca"
+
+  [[params.socialIcons]]
+  name = "Rss"
+  url = "/index.xml"
