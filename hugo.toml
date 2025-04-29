@@ -7,24 +7,64 @@ defaultContentLanguageInSubdir = true
 disableDefaultLanguageRedirect = false
 
 [languages]
-  [languages.en]
-    contentDir = 'content/posts/en'
+
+  [languages.en-US]
+    contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageName = 'English'
     title = 'My blog'
-    weight = 0
+    weight = 1
+
+    [[languages.en-US.menu.main]]
+      name = 'Home'
+      pageRef = '/'
+      weight = 10
+    [[languages.en-US.menu.main]]
+      name = 'Blog'
+      pageRef = '/posts'
+      weight = 20
+    [[languages.en-US.menu.main]]
+      name = 'Projects'
+      pageRef = '/projects'
+      weight = 30
+
+    [languages.en-US.params]
+      
+      [languages.en-US.params.author]
+        avatar = 'avatar.jpg'
+        intro = 'Marcelo Fonseca'
+        name = 'Marcelo Fonseca'
+        description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
 
   [languages.pt-BR]
-    contentDir = 'content/posts/pt'
+    contentDir = 'content/pt'
     disabled = false
     languageCode = 'pt-BR'
     languageName = 'Português'
     title = 'Meu blog'
-    weight = 1
+    weight = 2
+
+    [[languages.pt-BR.menu.main]]
+      name = 'Início'
+      pageRef = '/'
+      weight = 10
+    [[languages.pt-BR.menu.main]]
+      name = 'Blog'
+      pageRef = '/posts'
+      weight = 20
+    [[languages.pt-BR.menu.main]]
+      name = 'Projetos'
+      pageRef = '/projects'
+      weight = 30
 
     [languages.pt-BR.params]
-      subtitle = 'Subtítulo'
+
+      [languages.pt-BR.params.author]
+        avatar = 'avatar.jpg'
+        intro = 'Marcelo Fonseca'
+        name = 'Marcelo Fonseca'
+        description = 'Sou Marcelo Fonseca, Cientista de Dados. Neste blog compartilho insights, projetos e aprendizados sobre dados, tecnologia e além 👋'
 
 [params]
   goToTop = true
@@ -32,6 +72,10 @@ disableDefaultLanguageRedirect = false
   [[params.socialIcons]]
   name = "github"
   url = "https://github.com/marcelohfonseca"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/marcelohfonseca/"
 
   [[params.socialIcons]]
   name = "Rss"
