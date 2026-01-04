@@ -1,5 +1,5 @@
 baseURL = 'https://marcelofonseca.me/'
-title = 'My New Hugo Site'
+title = 'Marcelo Fonseca'
 theme = 'hugo-blog-awesome'
 languageCode = 'pt-BR'
 defaultContentLanguage = 'pt-BR'
@@ -10,11 +10,11 @@ disableDefaultLanguageRedirect = false
 
   [languages.en-US]
     contentDir = 'content/en'
-    disabled = false
+    disabled = true
     languageCode = 'en-US'
     languageName = 'English'
     title = 'My blog'
-    weight = 1
+    weight = 2
 
     [[languages.en-US.menu.main]]
       name = 'Home'
@@ -43,7 +43,7 @@ disableDefaultLanguageRedirect = false
     languageCode = 'pt-BR'
     languageName = 'Português'
     title = 'Meu blog'
-    weight = 2
+    weight = 1
 
     [[languages.pt-BR.menu.main]]
       name = 'Início'
@@ -68,6 +68,7 @@ disableDefaultLanguageRedirect = false
 
 [params]
   goToTop = true
+  showLanguageSwitcher = false
 
   [[params.socialIcons]]
   name = "github"
