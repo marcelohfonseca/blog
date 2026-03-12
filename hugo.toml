@@ -81,3 +81,8 @@ disableDefaultLanguageRedirect = false
   [[params.socialIcons]]
   name = "Rss"
   url = "/index.xml"
+
+  enableGitInfo = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
