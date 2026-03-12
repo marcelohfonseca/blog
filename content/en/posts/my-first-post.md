@@ -1,9 +1,16 @@
 +++
 title = 'My First Post'
-date = '2025-04-27T10:46:48-03:00'
+date = '2025-04-27'
 draft = false
+tags = ['projetos']
+categories = ['blog']
+summary = 'A brief introduction to my blog.'
+author = 'Marcelo'
+slug = 'por-que-um-blog-em-2026'
+featured_image = '/images/posts/my-first-post.jpg'
+lang = 'pt-BR'
 +++
 
-## My first post
+## Por que um blog em 2026?
 
-This is my first post.
+...
