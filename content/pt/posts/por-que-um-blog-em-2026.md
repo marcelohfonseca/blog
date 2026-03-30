@@ -9,8 +9,6 @@ slug = 'por-que-um-blog-em-2026'
 lang = 'pt-BR'
 +++
 
-## Por que um blog em 2026?
-
 Vivemos um momento onde tudo parece descartável. Existe um bombardeio de informações e está cada vez mais difícil filtrar algo relevante em uma montanha de conteúdos promovidos para te colocar em uma bolha, instigar discussões e promover o que não é real.
 
 Abandonei as principais redes sociais (leia-se Facebook e Instagram) no início da pandemia de 2020. O Twitter (me recuso a chamar de X), pouco tempo depois, em 2024. Já tinha muita coisa para pensar sobre o futuro, o que estávamos passando e o que seria dali para frente. Meu filho tinha apenas 2 anos, e agora? Na verdade, eu já não curtia muito o mecanismo de funcionamento das redes sociais naquele ponto; hoje em dia, sinto que essa percepção apenas se confirmou.
