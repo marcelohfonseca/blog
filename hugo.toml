@@ -64,6 +64,9 @@ disableDefaultLanguageRedirect = false
         name = 'Marcelo Fonseca'
         description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
 
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
+
 [markup]
   [markup.tableOfContents]
     startLevel = 2
@@ -90,5 +93,6 @@ disableDefaultLanguageRedirect = false
 
   enableGitInfo = true
 
-[frontmatter]
-  lastmod = ["lastmod", ":git", "date"]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
