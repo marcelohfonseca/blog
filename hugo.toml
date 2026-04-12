@@ -12,7 +12,7 @@ disableDefaultLanguageRedirect = false
     disabled = false
     languageCode = 'pt-BR'
     languageName = 'Português'
-    title = 'Meu blog'
+    title = 'Marcelo Fonseca - Blog e Projetos'
     weight = 1
 
     [[languages.pt-BR.menu.main]]
@@ -25,7 +25,7 @@ disableDefaultLanguageRedirect = false
       weight = 20
     [[languages.pt-BR.menu.main]]
       name = 'Projetos'
-      pageRef = '/projects'
+      pageRef = 'projetos'
       weight = 30
 
     [languages.pt-BR.params]
@@ -40,7 +40,7 @@ disableDefaultLanguageRedirect = false
     disabled = false
     languageCode = 'en-US'
     languageName = 'English'
-    title = 'My blog'
+    title = 'Marcelo Fonseca - Blog and Projects'
     weight = 2
 
     [[languages.en-US.menu.main]]
@@ -53,7 +53,7 @@ disableDefaultLanguageRedirect = false
       weight = 20
     [[languages.en-US.menu.main]]
       name = 'Projects'
-      pageRef = '/projects'
+      pageRef = 'projects'
       weight = 30
 
     [languages.en-US.params]
