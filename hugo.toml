@@ -10,7 +10,7 @@ disableDefaultLanguageRedirect = false
 
   [languages.en-US]
     contentDir = 'content/en'
-    disabled = true
+    disabled = false
     languageCode = 'en-US'
     languageName = 'English'
     title = 'My blog'
@@ -68,7 +68,7 @@ disableDefaultLanguageRedirect = false
 
 [params]
   goToTop = true
-  showLanguageSwitcher = false
+  showLanguageSwitcher = true
 
   [[params.socialIcons]]
   name = "github"
@@ -80,7 +80,7 @@ disableDefaultLanguageRedirect = false
 
   [[params.socialIcons]]
   name = "Rss"
-  url = "/index.xml"
+  url = "/pt/index.xml"
 
   enableGitInfo = true
 
