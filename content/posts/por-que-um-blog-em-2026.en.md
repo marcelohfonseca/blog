@@ -6,7 +6,7 @@ tags = ['projects']
 categories = ['blog']
 author = 'Marcelo'
 slug = 'why-a-blog-in-2026'
-lang = 'en'
+lang = 'en-US'
 +++
 
 We live in a moment where everything seems disposable. There is a bombardment of information and it is increasingly difficult to filter anything relevant from a mountain of content promoted to put you in a bubble, instigate discussions and promote what is not real.

@@ -8,37 +8,7 @@ disableDefaultLanguageRedirect = false
 
 [languages]
 
-  [languages.en-US]
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en-US'
-    languageName = 'English'
-    title = 'My blog'
-    weight = 2
-
-    [[languages.en-US.menu.main]]
-      name = 'Home'
-      pageRef = '/'
-      weight = 10
-    [[languages.en-US.menu.main]]
-      name = 'Blog'
-      pageRef = '/posts'
-      weight = 20
-    [[languages.en-US.menu.main]]
-      name = 'Projects'
-      pageRef = '/projects'
-      weight = 30
-
-    [languages.en-US.params]
-      
-      [languages.en-US.params.author]
-        avatar = 'avatar.jpg'
-        intro = 'Marcelo Fonseca'
-        name = 'Marcelo Fonseca'
-        description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
-
   [languages.pt-BR]
-    contentDir = 'content/pt'
     disabled = false
     languageCode = 'pt-BR'
     languageName = 'Português'
@@ -66,6 +36,34 @@ disableDefaultLanguageRedirect = false
         name = 'Marcelo Fonseca'
         description = 'Sou Marcelo Fonseca, Cientista de Dados. Neste blog compartilho insights, projetos e aprendizados sobre dados, tecnologia e além 👋'
 
+  [languages.en-US]
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'My blog'
+    weight = 2
+
+    [[languages.en-US.menu.main]]
+      name = 'Home'
+      pageRef = '/'
+      weight = 10
+    [[languages.en-US.menu.main]]
+      name = 'Blog'
+      pageRef = '/posts'
+      weight = 20
+    [[languages.en-US.menu.main]]
+      name = 'Projects'
+      pageRef = '/projects'
+      weight = 30
+
+    [languages.en-US.params]
+      
+      [languages.en-US.params.author]
+        avatar = 'avatar.jpg'
+        intro = 'Marcelo Fonseca'
+        name = 'Marcelo Fonseca'
+        description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
+
 [params]
   goToTop = true
   showLanguageSwitcher = true
@@ -80,7 +78,7 @@ disableDefaultLanguageRedirect = false
 
   [[params.socialIcons]]
   name = "Rss"
-  url = "/pt/index.xml"
+  url = "/pt-br/index.xml"
 
   enableGitInfo = true
 
