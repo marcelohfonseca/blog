@@ -6,6 +6,7 @@ tags = ['projetos']
 categories = ['blog']
 author = 'Marcelo'
 slug = 'por-que-um-blog-em-2026'
+toc = false
 lang = 'pt-BR'
 +++
 

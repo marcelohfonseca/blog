@@ -12,7 +12,7 @@ disableDefaultLanguageRedirect = false
     disabled = false
     languageCode = 'pt-BR'
     languageName = 'Português'
-    title = 'Marcelo Fonseca - Blog e Projetos'
+    title = 'Marcelo Fonseca'
     weight = 1
 
     [[languages.pt-BR.menu.main]]
@@ -40,7 +40,7 @@ disableDefaultLanguageRedirect = false
     disabled = false
     languageCode = 'en-US'
     languageName = 'English'
-    title = 'Marcelo Fonseca - Blog and Projects'
+    title = 'Marcelo Fonseca'
     weight = 2
 
     [[languages.en-US.menu.main]]
@@ -64,9 +64,17 @@ disableDefaultLanguageRedirect = false
         name = 'Marcelo Fonseca'
         description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
 
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
 [params]
   goToTop = true
   showLanguageSwitcher = true
+  toc = true
+  tocOpen = true
 
   [[params.socialIcons]]
   name = "github"

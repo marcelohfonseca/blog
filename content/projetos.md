@@ -1,6 +1,7 @@
 +++
 title = "Projetos"
 description = "Lista de projetos"
+toc = false
 +++
 
 ### 🚧 Em desenvolvimento

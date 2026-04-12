@@ -1,10 +1,11 @@
 +++
 title = "Projetos"
 description = "Lista de projetos"
+toc = false
 +++
 
-### 🚧 Em desenvolvimento
+### 🚧 Under development
 
-Estou organizando meu portfólio e documentando os aprendizados dos projetos recentes em Ciência de Dados.
+I'm organizing my portfolio and documenting the learnings from recent Data Science projects.
 
-**Novidades em breve!** Enquanto isso, você pode conferir o que estou escrevendo no [Blog](/pt-br/posts).
+**Coming soon!** In the meantime, you can check out what I'm writing on the [Blog](/en-us/posts).

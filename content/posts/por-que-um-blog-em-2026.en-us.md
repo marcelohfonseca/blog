@@ -6,6 +6,7 @@ tags = ['projects']
 categories = ['blog']
 author = 'Marcelo'
 slug = 'why-a-blog-in-2026'
+toc = false
 lang = 'en-US'
 +++
 
