@@ -64,9 +64,17 @@ disableDefaultLanguageRedirect = false
         name = 'Marcelo Fonseca'
         description = "I'm Marcelo Fonseca, a Data Scientist. In this blog, I share insights, projects, and lessons about data, technology, and more 👋"
 
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
 [params]
   goToTop = true
   showLanguageSwitcher = true
+  toc = true
+  tocOpen = true
 
   [[params.socialIcons]]
   name = "github"
